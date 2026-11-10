@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Realtime Software Engineering Workshop'
+project = 'Githubio Template'
 copyright = 'Gerard Harkema'
 author = 'Gerard Harkema'
 release = '0.1'
