@@ -8,9 +8,6 @@ Githubio template
 
 **Welkom bij de Avans Githubio template** 
 
-.. note::
-   This project is under active development.
-
 
 .. toctree::
    :maxdepth: 3

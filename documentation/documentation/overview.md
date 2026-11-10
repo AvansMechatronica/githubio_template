@@ -20,7 +20,7 @@ De template is opgebouwd uit de volgende onderdelen:
 Je kunt deze onderdelen uitbreiden met extra secties en pagina's afhankelijk van de behoeften van je project.
 
 :::{note}
-Je kunt de bestanden (met uitzondering van de `.git`-map) toevoegen aan je eigen project. Doe dat in de hoofdmap van je project. Nadat je dit gedaan hebt, zal automatisch de documentatie worden gegenereerd op de githubio-pagina van je project.
+Je kunt de bestanden (met uitzondering van de `.git`-map) toevoegen aan je eigen project. Doe dat in de hoofdmap van je project. Nadat je dit gedaan hebt, zal automatisch de documentatie worden gegenereerd op de Githubio-pagina van je project.
 :::
 
 ## Gebruik van de template
@@ -59,13 +59,13 @@ rmdir /s /q .git
 
 ::::
 
-4. **Maak een nieuwe Git-repository aan in Github**: Initialiseer een nieuwe Git-repository in Github en volg de instructies om deze aan te maken.
+4. **Maak een nieuwe GitHub-repository aan**: Ga naar GitHub en volg de instructies om een nieuwe repository aan te maken.
 
 5. **Pas de inhoud aan**: Bewerk de overzichtspagina, index en licentiepagina om deze aan te passen aan je project.
 
 6. **Voeg extra secties toe**: Indien nodig kun je extra pagina's en secties toevoegen om je documentatie uit te breiden.
 
-7. **Publiceer op GitHub Pages**: Zorg ervoor dat je repository is ingesteld om GitHub Pages te gebruiken, zodat je documentatie online beschikbaar is(zie hieronder). Gebruik hiervoor het 'git push' commando om je wijzigingen naar de remote repository te sturen.
+7. **Publiceer op GitHub Pages**: Zorg ervoor dat je repository is ingesteld om GitHub Pages te gebruiken, zodat je documentatie online beschikbaar is (zie hieronder). Gebruik hiervoor het `git push`-commando om je wijzigingen naar de remote repository te sturen.
 
 ```bash
 git add .
@@ -85,7 +85,7 @@ Om je documentatie op GitHub Pages te publiceren, volg je deze stappen:
 
 Na het voltooien van deze stappen wordt je documentatie gepubliceerd en is deze online beschikbaar via de opgegeven URL.
 
-## valkuilen
+## Valkuilen
 
 Bij het gebruik van deze template zijn er enkele valkuilen waar je op moet letten:
 
@@ -94,7 +94,9 @@ Bij het gebruik van deze template zijn er enkele valkuilen waar je op moet lette
 - Pas de inhoud van de overzichtspagina, index en licentiepagina aan om te voorkomen dat er verouderde informatie wordt weergegeven.
 - Houd rekening met de structuur van je project, zodat de documentatie correct wordt gegenereerd.
 - Monitor de status van je `git push` in het action logboek om te controleren of de documentatie correct wordt gepubliceerd.
-![github actions status](../images/github_actions.png)
+
+![GitHub Actions status](../images/github_actions.png)
+
 ## Referenties
 
 Hieronder vind je enkele nuttige bronnen en documentatie die je kunnen helpen bij het gebruik van de Avans Githubio template:
@@ -102,7 +104,7 @@ Hieronder vind je enkele nuttige bronnen en documentatie die je kunnen helpen bi
 - [GitHub Pages documentatie](https://docs.github.com/en/pages)
 - [Markdown gids](https://www.markdownguide.org/)
 - [Git documentatie](https://git-scm.com/doc)
-- [Avans Githubio template documentatie](../documentation/overview.md)
+- [Avans Githubio template documentatie](overview.md)
 - [MyST - Markedly Structured Text - Parser](https://myst-parser.readthedocs.io/en/latest/)
   - Hiermee kun je Markdown-bestanden schrijven die uitgebreidere functionaliteit bieden, zoals het gebruik van LaTeX, tabellen en verwijzingen.
 
