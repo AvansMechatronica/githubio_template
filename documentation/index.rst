@@ -14,6 +14,9 @@ Githubio template
    :caption: Inhoudsopgave:
 
    documentation/overview.md
+   documentation/pages.md
+   documentation/faq.md
+   documentation/references.md
 
 
 License
